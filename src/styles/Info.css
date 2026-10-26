@@ -1,0 +1,68 @@
+.container-info-panel {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.judul-items {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info-items {
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.info-items p {
+  font-size: 14px;
+}
+
+.info-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.material-symbols-outlined {
+  font-size: 70px;
+}
+
+.info-items a {
+  color: grey;
+  text-decoration: none;
+}
+.info-items a:hover {
+  color: rgb(105, 105, 105);
+  text-decoration: none;
+}
+
+/* ---- RESPONSIVE - BREAKPOINT ---- */
+
+/* Medium - Tablet */
+@media screen and (max-width: 800px) {
+  .container-info-panel {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .info-flex {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    justify-content: space-between;
+  }
+}
+
+/* Small - MiniTab & Phonecell */
+@media screen and (max-width: 550px) {
+  .info-flex {
+    display: none;
+  }
+}

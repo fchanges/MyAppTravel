@@ -1,0 +1,170 @@
+.container-damn-gallery {
+  width: 100%;
+  background-color: #aeacb548;
+  margin: 20px auto;
+}
+.damn-gallery-flex {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+.damn-gallery-items {
+  width: 350px;
+}
+.container-damn-gallery h2 {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 10px;
+  color: rgb(91, 91, 91);
+}
+.container-damn-gallery hr {
+  width: 10%;
+  margin: auto;
+  border: solid 1px rgb(91, 91, 91);
+  margin-bottom: 20px;
+}
+.damn-gallery-items figcaption .visit {
+  font-size: 20px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.damn-gallery-items figcaption {
+  width: 100px;
+  display: block;
+  margin-left: 0;
+  padding-top: 4px;
+  padding-left: 20px;
+  padding-right: 90px;
+  align-items: center;
+  transform: translateY(-50px);
+  background-color: black;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.damn-gallery-items img {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+/* Japan */
+.damn-gallery-items .japan-fig {
+  color: #fd017e;
+}
+.damn-gallery-items .jpn-gall-img {
+  border: solid 2px #fd017e;
+}
+/* Sidney */
+.damn-gallery-items .sydney-gallery {
+  color: #88ff00;
+}
+.damn-gallery-items .sdny-gall-img {
+  border: solid 2px #88ff00;
+}
+/* Indonesia */
+.damn-gallery-items .indo-gallery {
+  color: #fe012b;
+}
+.damn-gallery-items .indo-gall-img {
+  border: solid 2px #fe012b;
+}
+/* Korea */
+.damn-gallery-items .kor-gallery {
+  color: #00ccff;
+}
+.damn-gallery-items .kor-gall-img {
+  border: solid 2px #00ccff;
+}
+/* China */
+.damn-gallery-items .chn-gallery {
+  color: #eaff00;
+}
+.damn-gallery-items .chn-gall-img {
+  border: solid 2px #eaff00;
+}
+/* India */
+.damn-gallery-items .india-gallery {
+  color: #fe6410;
+}
+.damn-gallery-items .india-gall-img {
+  border: solid 2px #fe6410;
+}
+
+.container-damn-gallery a {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  font-style: italic;
+  justify-content: end;
+  margin-top: 20px;
+  padding-right: 5%;
+  border-style: none;
+  color: #969495;
+  border-radius: 30px;
+}
+
+.container-damn-gallery a:hover {
+  color: #82003b;
+}
+
+/* ---- RESPONSIVE - BREAKPOINT ---- */
+
+/* Medium - Tablet */
+@media screen and (max-width: 800px) {
+  .damn-gallery-items {
+    width: 300px;
+  }
+
+  .container-damn-gallery a {
+    width: 25%;
+  }
+}
+
+/* Small - MiniTab & Phonecell */
+@media screen and (max-width: 680px) {
+  .container-damn-gallery {
+    width: 100%;
+    height: auto;
+  }
+  .damn-gallery-items {
+    width: 250px;
+  }
+
+  .container-damn-gallery a {
+    width: auto;
+  }
+}
+
+/* Smaller - Phonecell */
+@media screen and (max-width: 550px) {
+  .container-damn-gallery {
+    width: 100%;
+    height: auto;
+  }
+  .damn-gallery-items {
+    width: 100%;
+    margin: 7px 60px;
+  }
+
+  .container-damn-gallery a {
+    width: auto;
+  }
+}
+
+/* Smaller - MiniPhonecell */
+@media screen and (max-width: 400px) {
+  .damn-gallery-items {
+    width: 100%;
+    margin: 7px 30px;
+  }
+
+  .container-damn-gallery a {
+    width: auto;
+  }
+}

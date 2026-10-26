@@ -1,0 +1,25 @@
+.container-ontop {
+  display: flex;
+  justify-content: center;
+  width: 140px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.container-ontop a {
+  font-size: 14px;
+  color: #303030;
+  margin: auto;
+  padding: 14px;
+  text-decoration: none;
+}
+.container-ontop a:hover {
+  color: #ff0073;
+}
+
+/* ---- RESPONSIVE - BREAKPOINT ---- */
+@media screen and (max-width: 550px) {
+  .container-ontop {
+    margin-top: 20px;
+  }
+}

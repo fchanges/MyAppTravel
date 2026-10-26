@@ -1,0 +1,15 @@
+/* CSS STANDARD */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: grey;
+}
+/* CSS STANDARD */

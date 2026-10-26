@@ -1,0 +1,66 @@
+.container-community {
+    scroll-behavior: smooth;
+    padding-top: 10px;
+    margin-bottom: 70px;
+}
+
+.container-community h2 {
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  color: rgb(91, 91, 91);
+}
+
+.container-community p {
+    text-align: justify;
+    margin-top: 10px;
+    padding-top: 7px;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: rgb(91, 91, 91);
+}
+
+
+/* ---- RESPONSIVE - BREAKPOINT ---- */
+
+/* Medium - Tablet */
+@media screen and (max-width: 770px) {
+  .container-community {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.container-community p {
+    text-align: justify;
+    margin-top: 10px;
+    padding-top: 4px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/* Small - MiniTab & Phonecell */
+@media screen and (max-width: 550px) {
+  .container-community {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.container-community p {
+    text-align: justify;
+    margin-top: 10px;
+    padding-top: 4px;
+    padding-bottom: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: rgb(91, 91, 91);
+}
+
+
+/* Smaller - MiniPhonecell */

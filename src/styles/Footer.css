@@ -1,0 +1,77 @@
+.container-footer {
+  background-color: #af004f;
+  margin-top: 30px;
+  bottom: 30px;
+  position: relative;
+}
+.footer-flex {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footer-items-logo {
+  width: 500px;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+.footer-items-logo img {
+  width: 200px;
+}
+.footer-items-logo img {
+  width: 170px;
+  padding-top: 20px;
+}
+.footer-items-text {
+  width: 650px;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 50px;
+  margin-bottom: 40px;
+  color: white;
+}
+.footer-items-text p {
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.icons a {
+  font-size: 20px;
+  padding-left: 20px;
+  color: white;
+}
+.icons a:hover {
+  color: black;
+}
+
+.container-marquee {
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0px;
+  position: fixed;
+  z-index: 1999;
+}
+
+/* ---- RESPONSIVE - BREAKPOINT ---- */
+/* Small - MiniTab & Phonecell */
+@media screen and (max-width: 550px) {
+  .container-footer {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer-items-text p {
+    font-size: small;
+  }
+
+  .footer-flex {
+    width: 100%;
+  }
+}

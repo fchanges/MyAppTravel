@@ -1,0 +1,124 @@
+.container-showcase-damn {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #aeacb548;
+}
+.showcase-damn-flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin-top: 30px;
+}
+.showcase-damn-items {
+  width: 500px;
+}
+.showcase-damn-items h2 {
+  margin-top: 20px;
+}
+.showcase-damn-items h4 {
+  margin-top: 4px;
+}
+
+.showcase-damn-items img {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+.showcase-damn-items p {
+  margin-top: 20px;
+  line-height: 28px;
+}
+.showcase-damn-items h3 {
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.showcase-damn-items a {
+  display: flex;
+  width: 50%;
+  font-style: italic;
+  text-decoration: none;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-style: none;
+  background-color: #ff0073;
+  color: #ffcde3;
+  border-radius: 30px;
+}
+.showcase-damn-items a:hover {
+  background-color: #82003b;
+}
+
+/* ---- RESPONSIVE - BREAKPOINT ---- */
+
+/* Standard - Laptop */
+@media screen and (max-width: 1200px) {
+  .showcase-damn-items {
+    width: 460px;
+    margin: 0 10px;
+  }
+}
+
+/* Standard - Tablet */
+@media screen and (max-width: 995px) {
+  .showcase-damn-items {
+    width: 450px;
+    margin: 0 10px;
+  }
+  .showcase-damn-items img {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .showcase-damn-items {
+    width: 100%;
+    margin: 0 70px;
+  }
+}
+
+/* Medium - Tablet */
+@media screen and (max-width: 680px) {
+  .showcase-damn-items {
+    width: 100%;
+    margin: 0 50px;
+  }
+}
+
+/* Small - MiniTab & Phonecell */
+@media screen and (max-width: 550px) {
+  .container-showcase-damn {
+    width: 100%;
+    margin: 0;
+  }
+  .showcase-damn-items img {
+    width: 100%;
+    padding: 0;
+  }
+  .showcase-damn-flex {
+    width: 100%;
+  }
+  .showcase-damn-items {
+    width: 100%;
+    margin: 0 50px;
+  }
+}
+
+/* Smaller - MiniPhonecell */
+@media screen and (max-width: 440px) {
+  .showcase-damn-items {
+    width: 100%;
+    margin: 0 50px;
+  }
+  .showcase-damn-items p {
+    margin-top: 20px;
+    line-height: 25px;
+  }
+}

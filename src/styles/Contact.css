@@ -1,0 +1,151 @@
+.container-contact {
+  /* width: 100%; */
+  scroll-behavior: smooth;
+    margin-top: 80px;
+    padding-top: 10px;
+    margin-bottom: 80px;
+    padding-bottom: 100px;
+}
+.container-contact h2 {
+  text-align: center;
+  margin-top: 10px;
+  padding-top:  10px;
+  color: rgb(91, 91, 91);
+}
+.container-contact form {
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-contact input {
+  height: auto;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: solid 1px grey;
+  color: grey;
+}
+.container-contact textarea {
+  height: auto;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding: 20px 40px;
+  border-radius: 30px;
+  color: gray;
+  resize: none;
+}
+.container-contact button {
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #303030;
+  color: white;
+  cursor: pointer;
+}
+.container-contact button:hover {
+  color: white;
+  background-color: #82003b;
+  border: none;
+}
+
+.contact-active {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-style: italic; 
+  color: rgb(154, 155, 154);
+}
+
+
+/* ---- RESPONSIVE - BREAKPOINT ---- */
+
+/* Medium - Tablet */
+@media screen and (max-width: 770px) {
+  .container-contact form {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container-contact textarea {
+  width: auto;
+  height: auto;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding: 20px 40px;
+  border-radius: 30px;
+  color: gray;
+  resize: none;
+}
+}
+
+/* Small - MiniTab & Phonecell */
+@media screen and (max-width: 550px) {
+  .container-contact {
+    width: 100%;
+    margin: 0;
+  }
+  .container-contact form {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.container-contact textarea {
+  width: auto;
+  height: auto;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding: 20px 40px;
+  border-radius: 30px;
+  color: gray;
+  resize: none;
+}
+
+  .container-contact button {
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+}
+
+/* Smaller - MiniPhonecell */
+@media screen and (max-width: 440px) {
+  .container-contact {
+    width: 100%;
+    margin: 0;
+  }
+  .container-contact form {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.container-contact textarea {
+  width: auto;
+  height: auto;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding: 20px 40px;
+  border-radius: 30px;
+  color: gray;
+  resize: none;
+}
+
+  .container-contact button {
+    width: 250px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+}
