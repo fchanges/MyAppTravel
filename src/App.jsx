@@ -1,7 +1,7 @@
 import "./App.css";
 
 // PAGES //
-import Home from "../pages/Home";
+import Home from "./pages/Home";
 // PAGES //
 
 function App() {
