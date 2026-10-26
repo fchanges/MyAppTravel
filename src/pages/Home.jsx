@@ -1,4 +1,4 @@
-import Navigation from "../src/components/Navigation"
+import Navigation from "../components/Navigation"
 import Hero from "../components/Hero"
 import Info from "../components/Info"
 import Packages from "../components/Packages"
